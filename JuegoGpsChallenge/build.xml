@@ -126,9 +126,19 @@
 	<target name="compilar.paquete" depends="test">
 		<javac srcdir="src" destdir="${build}/classes" debug="no"></javac>
 	</target>
-
+	
 	<target name="empaquetar" depends="compilar.paquete">
-		<jar destfile="${build}/dist/titiritero.jar" basedir="${build}/classes"/>
+	<copydir src= "src/aplicacion/vista"
+	    dest ="${build}/classes/vista"
+	    includes= "**/*.png"/>
+	<jar destfile="${build}/dist/gps.jar" basedir="${build}/classes"/>
+	</target>
+
+	<target name="ejecutar.aplicacion" depends="empaquetar">
+	<java classname="aplicacion/main.Principal" fork="true">
+	<classpath refid="classpath"/>
+	<classpath location="${build}/dist/gps.jar"/>
+	</java>
 	</target>
 
 	<target name="integracion-continua" depends="coverage-report" description="Ejecuta todas las tareas de integracion y genera los correspondientes reportes"/>
