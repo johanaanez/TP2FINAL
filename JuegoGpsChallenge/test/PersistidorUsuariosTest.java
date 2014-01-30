@@ -104,7 +104,7 @@ public class PersistidorUsuariosTest {
 	
 	
 	
-	//@Test
+	@Test
 	public void testPersistirUsuarios(){
 		
 		String n1 = "maciel";
@@ -176,7 +176,7 @@ public class PersistidorUsuariosTest {
 		}	
 	}
 	
-	//@Test
+	@Test
 	public void testPersistirUsuariosVacios(){
 		 
 		Facil facil = new Facil();
@@ -204,7 +204,7 @@ public class PersistidorUsuariosTest {
 	}
 
 
-	//@Test
+	@Test
 	public void testPersistenciaCompleta(){
 		
 		
@@ -276,8 +276,8 @@ public class PersistidorUsuariosTest {
 	}
 	
 	
-	//@Test
-	public void testInicializaciónDeUnModelo(){
+	@Test
+	public void testInicializacionDeUnModelo(){
 		
 		Facil facil = new Facil();
 		GPSChallenge GPS = new GPSChallenge(facil);

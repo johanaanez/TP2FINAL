@@ -38,7 +38,7 @@ public class GPSChallenge extends Observable implements Serializable {
 			PersistidorUsuarios recuepradorDeUsuarios = new PersistidorUsuarios();
 			this.usuarios = recuepradorDeUsuarios.recuperarSoloUsuarios();
 		} catch (FileNotFoundException  error) {
-			System.out.println("no hay usuarios guardados. Se creará una nueva lista de usuarios");
+			System.out.println("no hay usuarios guardados. Se creara una nueva lista de usuarios");
 			this.usuarios = new ArrayList<String>();
 		}		
 
@@ -67,7 +67,7 @@ public class GPSChallenge extends Observable implements Serializable {
 			PersistidorUsuarios recuepradorDeUsuarios = new PersistidorUsuarios();
 			this.usuarios = recuepradorDeUsuarios.recuperarSoloUsuarios();
 		} catch (FileNotFoundException  error) {
-			System.out.println("no hay usuarios guardados. Se creará una nueva lista de usuarios");
+			System.out.println("no hay usuarios guardados. Se creara una nueva lista de usuarios");
 			this.usuarios = new ArrayList<String>();
 		}		
 
@@ -96,7 +96,7 @@ public class GPSChallenge extends Observable implements Serializable {
 			PersistidorUsuarios recuepradorDeUsuarios = new PersistidorUsuarios();
 			this.usuarios = recuepradorDeUsuarios.recuperarSoloUsuarios();
 		} catch (FileNotFoundException  error) {
-			System.out.println("no hay usuarios guardados. Se creará una nueva lista de usuarios");
+			System.out.println("no hay usuarios guardados. Se creara una nueva lista de usuarios");
 			this.usuarios = new ArrayList<String>();
 		}		
 
@@ -126,7 +126,7 @@ public class GPSChallenge extends Observable implements Serializable {
 			PersistidorUsuarios recuepradorDeUsuarios = new PersistidorUsuarios();
 			this.usuarios = recuepradorDeUsuarios.recuperarSoloUsuarios();
 		} catch (FileNotFoundException  error) {
-			System.out.println("no hay usuarios guardados. Se creará una nueva lista de usuarios");
+			System.out.println("no hay usuarios guardados. Se creara una nueva lista de usuarios");
 			this.usuarios = new ArrayList<String>();
 		}		
 
