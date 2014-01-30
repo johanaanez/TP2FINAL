@@ -130,7 +130,7 @@ public class EscenarioTest {
 	
 	
 	@Test
-	public void pruebaDeCalles(){
+	public void testPruebaDeCalles(){
 		
 		Escenario escenario = new Escenario(8);
 		

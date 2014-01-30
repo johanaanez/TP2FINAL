@@ -26,7 +26,7 @@ public class GPSChallengeTest {
 	}
 	
 	//@Test
-	public void agregarJugadorTest(){
+	public void testAgregarJugador(){
 		GPSChallenge GPS = new GPSChallenge(new Facil());
 		String miNombre = "macielitus";
 		GPS.agregarUsuario(miNombre);

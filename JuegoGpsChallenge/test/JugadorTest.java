@@ -15,6 +15,7 @@ public class JugadorTest {
 		assertTrue(jugador.nombre() == "Jugador1");
 	}
 	
+	@Test
 	public void testCrearConNombre(){
 		Jugador jugador = new Jugador("Pedro");
 		assertTrue(jugador.vehiculo() != null);
