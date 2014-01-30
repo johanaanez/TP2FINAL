@@ -94,7 +94,6 @@ public class Escenario {
 	
 	public Esquina getEsquina(int posEsquina){
 		
-		//devuelve la esquina que esté en la posicion pasada por parámetro
 		//recordar que el verctor inicia en la posicion 0
 	
 		return this.esquinas[posEsquina];
