@@ -14,6 +14,7 @@ public class Principal {
 		// creamos la vista
 		VistaBienvenida vista = new VistaBienvenida("GPS CHALLENGE",400,400);
 		vista.saludar();
+		
 	}
 
 }
